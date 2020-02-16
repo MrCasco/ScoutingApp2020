@@ -1,0 +1,52 @@
+{
+  "name": "scoutingApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node-test.js",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "npm run build && node dist/index.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "rm -rf dist; ./node_modules/.bin/tsc",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "apollo-client-preset": "^1.0.8",
+    "apollo-link-ws": "^1.0.8",
+    "cross-fetch": "^2.2.0",
+    "faker": "^4.1.0",
+    "fs": "0.0.1-security",
+    "graphql": "^0.13.2",
+    "node-fetch": "^2.1.2",
+    "random-words": "^1.1.0",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-native-fs": "^2.16.4",
+    "realm": "^2.7.1",
+    "realm-graphql-client": "^1.1.1",
+    "realm-object-server": "^3.28.2",
+    "rn-nodeify": "^10.2.0",
+    "subscriptions-transport-ws": "^0.9.9",
+    "uuid": "^3.2.0",
+    "ws": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^0.0.7",
+    "babel-jest": "^25.1.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.58.0",
+    "react-test-renderer": "16.9.0",
+    "@types/node-fetch": "^1.6.9",
+    "@types/ws": "^5.1.1",
+    "typescript": "^2.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
