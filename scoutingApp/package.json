@@ -31,7 +31,7 @@
     "rn-nodeify": "^10.2.0",
     "subscriptions-transport-ws": "^0.9.9",
     "uuid": "^3.2.0",
-    "ws": "^5.1.1"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
